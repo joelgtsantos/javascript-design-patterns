@@ -1,0 +1,50 @@
+body {
+  background: white;
+  margin: 2em;
+}
+
+.container{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.list-container{
+  flex-basis: 20%;
+}
+
+#kitten-list{
+  display: flex;
+  flex-direction: column; 
+  border: 1px solid white;
+  padding: 0;
+  margin: 0;
+}
+
+#kitten-list .kitten-item {
+  list-style-type: none;
+  cursor: pointer;
+  background-color: #cde;
+  margin: 0.2em;
+}
+
+#kitten{
+  flex-basis: 20%;
+  margin: 0.2em;
+  display: flex;
+  flex-direction: column;
+}
+
+#kitten-img{
+  width: 100%;
+  cursor: pointer;
+}
+
+#kitten-name{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#kitten-count{
+  font-size:0.7em;
+  margin-bottom: 10px;
+}
